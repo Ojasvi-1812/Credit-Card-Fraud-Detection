@@ -38,17 +38,19 @@ Handled class imbalance better and provided stronger generalization
 # Evaluation Metrics
 Confusion Matrix
 TP: 62, FN: 36, TN: 56851, FP: 13 (Logistic Regression)
+
 Classification Report
 Balanced accuracy and precision-recall tradeoff
+
 ROC Curve
 AUC of ~0.96 indicates strong separability
 
-📌 Key Insights
+# 📌 Key Insights
 Fraudulent transactions have distinct patterns in feature distribution
 Imbalanced data requires careful handling for effective fraud detection
 Random Forest offers better recall and robustness than Logistic Regression
 
-💼 Business Impact
+# 💼 Business Impact
 Detecting fraud early helps financial institutions save millions
 Improves customer trust and reduces operational risk
 Supports regulatory compliance and customer satisfaction
