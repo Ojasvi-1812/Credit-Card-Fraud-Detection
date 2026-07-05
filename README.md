@@ -3,8 +3,11 @@ An end-to-end Credit Card Fraud Detection project built using a Kaggle dataset. 
 
 # Dataset
 Source: Kaggle - Credit Card : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 Records: 284,807 transactions
+
 Features: 30 numerical variables (V1-V28 are PCA components, plus Time, Amount, and Class)
+
 Fraud Ratio: Only 0.17% of transactions are fraudulent
 
 # Technologies Used
@@ -36,21 +39,21 @@ Outperformed logistic regression in recall and AUC
 Handled class imbalance better and provided stronger generalization
 
 # Evaluation Metrics
-Confusion Matrix
+Confusion Matrix :
 TP: 62, FN: 36, TN: 56851, FP: 13 (Logistic Regression)
 
-Classification Report
+Classification Report :
 Balanced accuracy and precision-recall tradeoff
 
-ROC Curve
+ROC Curve :
 AUC of ~0.96 indicates strong separability
 
-# 📌 Key Insights
+# Key Insights
 Fraudulent transactions have distinct patterns in feature distribution
 Imbalanced data requires careful handling for effective fraud detection
 Random Forest offers better recall and robustness than Logistic Regression
 
-# 💼 Business Impact
+# Business Impact
 Detecting fraud early helps financial institutions save millions
 Improves customer trust and reduces operational risk
 Supports regulatory compliance and customer satisfaction
